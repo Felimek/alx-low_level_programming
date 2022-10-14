@@ -1,4 +1,5 @@
-#include <stdioh>
+#include <stdio.h>
+
 
 /**
  *
@@ -6,7 +7,7 @@
  *
  * *
  *
- * *Return: Always 0 (Successful)
+ * * Return: Always 0 (Successful)
  *
  * */
 
@@ -14,8 +15,12 @@ int main(void)
 
 {
 
-	  puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual
 
-	    return(0)
+			puzzle");
+
+	return  (0);
 
 }
+
+
