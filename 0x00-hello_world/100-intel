@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc –S –masm=intel 100-intel
+gcc -S -masm=CFILE=0-CFILE.c ; ./100-intel
