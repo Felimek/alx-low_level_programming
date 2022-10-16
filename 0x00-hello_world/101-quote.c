@@ -1,24 +1,24 @@
-#!/bin/bash
-#include <unistd.h>
+#include <stdio.h>
 
 
 
-/** 
+/**
+ * * main - Prints a text
  *
- *  * main - Prints a text
+ * *
  *
- *  * 
+ * * Return: Always 0 (Success)
  *
- *  * Return: Always 1 (Success) 
- *
- *  */
+ * */
 
 int main(void)
 
-{ 
+{
 
-	  write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59); 
+	printf("with proper grammar, but the outcome is a piece of
 
-	  return (1);
+			art,\n");
 
-	   }
+	return (0);
+
+}
