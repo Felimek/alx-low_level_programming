@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * add - add nums
- * @a: 1st parmeter
- * @b: seond parameter
- * Return: something
+ * print_alphabet_x10 - print a - z ten times
  */
 
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-	return (a + b);
+	int i;
+	char j;
+
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
 }
