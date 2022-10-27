@@ -18,6 +18,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	unsigned int value2 = 0;
 	unsigned int value3 = 0;
 	char *p = r;
+
 	while (n1[i + 1])
 	{
 		n1++;
@@ -48,11 +49,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	count += 1;
 	if (count > size_r)
 		return (0);
-	for (; count; count--)
-	{
-		digit = (value3 % 10);
-		value3 = (value3 - digit);
-		r[count] = digit + '0';
-	}
+for (; count; count--)
+{
+digit = (value3 % 10);
+value3 = (value3 - digit);
+r[count] = digit + '0';
+}
 	return (p);
 }
