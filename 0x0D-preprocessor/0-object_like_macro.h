@@ -1,26 +1,7 @@
-#include "0-object_like_macro.h"
+#ifndef SIZE_H
 
-#include "0-object_like_macro.h"
+#define SIZE_H
 
-#include <stdio.h>
+#define SIZE 1024
 
-
-
-/**
- * main - check the code for Holberton School students.
- *
- *   *
- *
- *    * Return: Always 0.
- *
- */
-
-int main(void)
-
-{
-int s;
-s = 98 + SIZE;
-printf("%d\n", s);
-return (0);
-
-}
+#endif
